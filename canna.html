@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Vente Minecraft</title>
+  <title>Vente <t/title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -56,8 +56,8 @@
 <body>
 
   <div class="container">
-    <h1>🌿〃Vente de Canabis sur MazeCity Roleplay</h1>
-    <p>Prix : <strong>100 € / unité</strong> ou <strong>1600 € / stack (16)</strong></p>
+    <h1>🌿〃Vente de Canabis sur MazeCity Roleplay au bougue</h1>
+    <p>Prix : <strong>200 € / unité</strong> ou <strong>300€ / stack (16)</strong></p>
 
     <p>Mode actuel: <strong id="modeLabel">Unité</strong></p>
 
@@ -72,8 +72,8 @@
   </div>
 
   <script>
-    let mode = "unit"; // "unit" ou "stack"
-    const unitPrice = 100;
+    let mode = "unit"; 
+    const unitPrice = 200;
     const stackSize = 16;
 
     function calculateTotal() {
@@ -90,7 +90,6 @@
     }
 
     function toggleMode() {
-      // Change de mode entre unité et stack
       if (mode === "unit") {
         mode = "stack";
         document.getElementById("modeLabel").textContent = "Stack (16)";
